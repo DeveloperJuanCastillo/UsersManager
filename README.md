@@ -51,4 +51,3 @@ Ejecuta el script ubicado en:
 👉 Database/init.sql
 
 Verifica que se haya creado la base de datos y la tabla Users.
----
