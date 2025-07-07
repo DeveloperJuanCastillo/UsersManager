@@ -1,0 +1,49 @@
+﻿@page
+@model UserManagement.Web.Pages.Users.IndexModel
+@{
+    ViewData["Title"] = "Usuarios";
+}
+<div class="container mt-5">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+            <h4 class="mb-0">Lista de Usuarios</h4>
+            <a class="btn btn-light btn-sm" asp-page="Create">
+                <i class="bi bi-plus-circle"></i> Agregar Usuario
+            </a>
+        </div>
+        <div class="card-body p-4">
+            <table class="table table-bordered table-striped table-hover">
+                <thead class="table-light">
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Fecha de nacimiento</th>
+                        <th>Sexo</th>
+                        <th class="text-center">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var usuario in Model.Users)
+                    {
+                        <tr>
+                            <td>@usuario.Name</td>
+                            <td>@usuario.Birthdate.ToShortDateString()</td>
+                            <td>@usuario.Gender</td>
+                            <td class="text-center">
+                                <div class="btn-group" role="group">
+                                    <a class="btn btn-outline-warning btn-sm" asp-page="Update" asp-route-id="@usuario.Id">
+                                        <i class="bi bi-pencil-square"></i> Editar
+                                    </a>
+                                    <form method="post" asp-page-handler="Eliminar" asp-route-id="@usuario.Id" onsubmit="return confirm('¿Eliminar este usuario?');">
+                                        <button type="submit" class="btn btn-outline-danger btn-sm ms-2">
+                                            <i class="bi bi-trash3"></i> Eliminar
+                                        </button>
+                                    </form>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

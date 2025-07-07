@@ -1,0 +1,42 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Inicio";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h3 class="mb-0"><i class="bi bi-house-door-fill"></i> Bienvenido a la Aplicación de Gestión de Usuarios</h3>
+        </div>
+        <div class="card-body">
+            <p class="lead">
+                Esta aplicación permite registrar, consultar, actualizar y eliminar información de usuarios de manera rápida y eficiente.
+            </p>
+
+            <h5 class="mt-4">🎯 Objetivo</h5>
+            <p>
+                El propósito principal es demostrar una implementación en capas utilizando buenas prácticas de arquitectura y desarrollo web con Razor Pages.
+            </p>
+
+            <h5 class="mt-4">🧰 Tecnologías utilizadas</h5>
+            <ul>
+                <li>.NET 8 con Razor Pages</li>
+                <li>ASP.NET Core API REST</li>
+                <li>SQL Server</li>
+                <li>Bootstrap 5</li>
+                <li>Inyección de dependencias y consumo de servicios HTTP</li>
+            </ul>
+
+            <h5 class="mt-4">🚀 Navegación</h5>
+            <div class="d-flex flex-wrap gap-3 mt-3">
+                <a class="btn btn-outline-primary" asp-page="/Users/Index">
+                    <i class="bi bi-card-list"></i> Ver Usuarios
+                </a>
+                <a class="btn btn-outline-success" asp-page="/Users/Create">
+                    <i class="bi bi-person-plus"></i> Crear Usuario
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

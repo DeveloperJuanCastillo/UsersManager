@@ -1,0 +1,15 @@
+C:\Users\Lenovo\OneDrive\Documentos\Projects\UsersManager\UserManagement.DataAccess\bin\Debug\net8.0\UserManagement.DataAccess.deps.json
+C:\Users\Lenovo\OneDrive\Documentos\Projects\UsersManager\UserManagement.DataAccess\bin\Debug\net8.0\UserManagement.DataAccess.runtimeconfig.json
+C:\Users\Lenovo\OneDrive\Documentos\Projects\UsersManager\UserManagement.DataAccess\bin\Debug\net8.0\UserManagement.DataAccess.dll
+C:\Users\Lenovo\OneDrive\Documentos\Projects\UsersManager\UserManagement.DataAccess\bin\Debug\net8.0\UserManagement.DataAccess.pdb
+C:\Users\Lenovo\OneDrive\Documentos\Projects\UsersManager\UserManagement.DataAccess\obj\Debug\net8.0\UserManagement.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Lenovo\OneDrive\Documentos\Projects\UsersManager\UserManagement.DataAccess\obj\Debug\net8.0\UserManagement.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\OneDrive\Documentos\Projects\UsersManager\UserManagement.DataAccess\obj\Debug\net8.0\UserManagement.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Lenovo\OneDrive\Documentos\Projects\UsersManager\UserManagement.DataAccess\obj\Debug\net8.0\UserManagement.DataAccess.AssemblyInfo.cs
+C:\Users\Lenovo\OneDrive\Documentos\Projects\UsersManager\UserManagement.DataAccess\obj\Debug\net8.0\UserManagement.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive\Documentos\Projects\UsersManager\UserManagement.DataAccess\obj\Debug\net8.0\UserManagement.DataAccess.sourcelink.json
+C:\Users\Lenovo\OneDrive\Documentos\Projects\UsersManager\UserManagement.DataAccess\obj\Debug\net8.0\UserManagement.DataAccess.dll
+C:\Users\Lenovo\OneDrive\Documentos\Projects\UsersManager\UserManagement.DataAccess\obj\Debug\net8.0\refint\UserManagement.DataAccess.dll
+C:\Users\Lenovo\OneDrive\Documentos\Projects\UsersManager\UserManagement.DataAccess\obj\Debug\net8.0\UserManagement.DataAccess.pdb
+C:\Users\Lenovo\OneDrive\Documentos\Projects\UsersManager\UserManagement.DataAccess\obj\Debug\net8.0\UserManagement.DataAccess.genruntimeconfig.cache
+C:\Users\Lenovo\OneDrive\Documentos\Projects\UsersManager\UserManagement.DataAccess\obj\Debug\net8.0\ref\UserManagement.DataAccess.dll

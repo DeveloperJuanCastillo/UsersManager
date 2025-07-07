@@ -1,0 +1,55 @@
+﻿@page "{id:int}"
+@model UserManagement.Web.Pages.Users.UpdateModel
+@{
+    ViewData["Title"] = "Actualizar Usuario";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm">
+        <div class="card-header bg-warning text-dark">
+            <h4 class="mb-0"><i class="bi bi-pencil-square"></i> Actualizar Usuario</h4>
+        </div>
+        <div class="card-body">
+            <form method="post">
+                <!-- Campo oculto -->
+                <input asp-for="Usuario.Id" type="hidden" />
+
+                <div class="mb-3">
+                    <label asp-for="Usuario.Name" class="form-label"></label>
+                    <input asp-for="Usuario.Name" class="form-control" />
+                    <span asp-validation-for="Usuario.Name" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Usuario.Birthdate" class="form-label"></label>
+                    <input asp-for="Usuario.Birthdate" type="date" class="form-control" />
+                    <span asp-validation-for="Usuario.Birthdate" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Usuario.Gender" class="form-label"></label>
+                    <select asp-for="Usuario.Gender" class="form-control">
+                        <option value="M">Masculino</option>
+                        <option value="F">Femenino</option>
+                    </select>
+                    <span asp-validation-for="Usuario.Gender" class="text-danger"></span>
+                </div>
+
+                <div class="d-flex justify-content-between mt-4">
+                    <button type="submit" class="btn btn-success">
+                        <i class="bi bi-check-circle"></i> Guardar Cambios
+                    </button>
+                    <a asp-page="Index" class="btn btn-secondary">
+                        <i class="bi bi-arrow-left-circle"></i> Cancelar
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+
